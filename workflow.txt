@@ -1,0 +1,22 @@
+I used excel to fix the date formatting then converted the data to json files.
+Now I need to use Notepad++'s record function to make collection_log.json and participants.json to readable json.
+Now I'll use python to calculate participants per date.
+
+
+# 1. How many valid participants have been collected each day and in total?
+# 2. How many are remaining to collect?
+# 3. What is the current status for the gender, age and type of sequence requirements?
+# 4. Which participants from the participant list are you going to invite to participate in the collection in order to complete the task? Provide the list containing their participant ID.
+# 5. How many short and long sequences will you run on the remaining participants?
+# 6. Any other comments?
+# Assume the following data collection request from the customer.
+
+# Collect 90 unique participants belonging to group C with the following speciﬁcations:
+
+# Gender: 30 % females, 70 % males // 27f, 63m
+# Age: 50 % between 18 and 40 years, 50 % between 41 and 60 years //expected 45 of each.
+# 60 % of the participants should get the short sequence, the rest – the long sequence. 54s, 36l
+
+# Only participants within the scope for the requirements and from the list of the available participants (attached to this task) can be considered as valid.
+
+# Assume that the data collection is already ongoing and your are assigned to check if everything that has been done so far fulﬁlls the requirements, take over the collection and ﬁnish it. The data collection log collection log.xlsx is attached to this e-mail. For the list of the available participants and their characteristics, please see participants.txt attached to this e-mail.
